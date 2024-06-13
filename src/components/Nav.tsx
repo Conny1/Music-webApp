@@ -1,9 +1,10 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Navbar = styled.div`
   background-color: #fff;
   margin: -5px;
+  flex: 1;
 `;
 const UpperSection = styled.div`
   color: black;
